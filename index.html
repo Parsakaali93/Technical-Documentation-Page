@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+<nav id="navbar">
+<header id="navtext">Navigation</header>
+
+<a class="nav-link" href="#Getting_Started">Getting Started</a>
+<a href="#Your_First_Project" class="nav-link">Your First Project</a>
+<a href="#Adding_Scripts_to_Game_Objects" class="nav-link">Adding Scripts to Game Objects</a>
+<a href="#Adding_UI_Elements" class="nav-link">Adding UI Elements</a>
+<a href="#Debugging" class="nav-link">Debugging</a>
+<a class="nav-link" href="#Getting_Started_2">Getting Started 2</a>
+<a href="#Your_First_Project_2" class="nav-link">Your First Project 2</a>
+<a href="#Adding_Scripts_to_Game_Objects_2" class="nav-link">Adding Scripts to Game Objects 2</a>
+<a href="#Adding_UI_Elements_2" class="nav-link">Adding UI Elements 2</a>
+<a href="#Debugging_2" class="nav-link">Debugging 2</a>
+</nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Getting_Started">
+        <header>Getting Started</header><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+        </section>
+        <section class="main-section" id="Your_First_Project">
+          <header>Your First Project</header><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+          
+          <code>void Start()
+    {
+        for(int i = 0; i < 90; i++)
+        {
+            Transform t = Instantiate(coin, new Vector3(Random.Range(corner1.position.x, corner2.position.x), corner1.position.y + Random.Range(0f, 5f), Random.Range(corner1.position.z, corner2.position.z)), coin.rotation) as Transform;
+            t.Rotate(new Vector3(0f, 0f, 90f));
+        }</br></br>
+
+        for (int i = 0; i < 90; i++)
+        {
+            Transform t = Instantiate(coin, new Vector3(Random.Range(topcorner1.position.x, topcorner2.position.x), topcorner1.position.y + Random.Range(0f, 5f), Random.Range(topcorner1.position.z, topcorner2.position.z)), coin.rotation) as Transform;
+            t.Rotate(new Vector3(0f, 0f, 90f));
+        }
+
+        
+    }</code>
+          
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+        </section>
+        <section class="main-section" id="Adding_Scripts_to_Game_Objects">
+          <header>Adding Scripts to Game Objects</header><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+
+<h3>Common enemies in video games</h3>    
+<ul>
+<li>Goblins</li>
+<li>Slimes</li>
+<li>Dragons</li>
+<li>Skeletons</li>
+<li>Wolves</li>
+</ul>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+        </section>
+        <section class="main-section" id="Adding_UI_Elements">
+          <header >Adding UI Elements</header>
+          
+          
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+          <code>void OnMouseOver()
+	{
+		game.numbertimer = 0.5f;
+		game.numbersum = game.sumOfNumbers(rowNumber, position);
+	}</code>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+<code>
+          void Start()
+    {
+        for(int i = 0; i < 90; i++)
+        {
+            Transform t = Instantiate(coin, new Vector3(Random.Range(corner1.position.x, corner2.position.x), corner1.position.y + Random.Range(0f, 5f), Random.Range(corner1.position.z, corner2.position.z)), coin.rotation) as Transform;
+            t.Rotate(new Vector3(0f, 0f, 90f));
+        }
+
+        for (int i = 0; i < 90; i++)
+        {
+            Transform t = Instantiate(coin, new Vector3(Random.Range(topcorner1.position.x, topcorner2.position.x), topcorner1.position.y + Random.Range(0f, 5f), Random.Range(topcorner1.position.z, topcorner2.position.z)), coin.rotation) as Transform;
+            t.Rotate(new Vector3(0f, 0f, 90f));
+        }
+    }</code>
+
+        </section>
+        <section class="main-section" id="Debugging">
+          <header>Debugging</header><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+          
+          <code>void OnMouseOver()
+	for(int i = 0; i < levels5x5.Length; i++)
+		{
+			levels5x5[i].completed = booleanFromInt(PlayerPrefs.GetInt("0levels" + i));
+
+			if(levels5x5[i].completed)
+			{
+			levels5x5[i].time = PlayerPrefs.GetString("0levelstime" + i);
+			levels5x5[i].timenum = PlayerPrefs.GetFloat("0levelstimenum" + i);
+			}
+		}</code>
+  
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+
+<code>void OnMouseOver()
+public static string isLevelComplete(level levelToCheck)
+	{
+		if(levelToCheck.completed)
+			return levelToCheck.levelName;
+		
+		else
+			return "???";
+	}</code>
+
+        </section>
+
+<section class="main-section" id="Getting_Started_2">
+        <header>Getting Started 2</header><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+        </section>
+        <section class="main-section" id="Your_First_Project_2">
+          <header>Your First Project 2</header><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+          
+          <code>void Start()
+    {
+        for(int i = 0; i < 90; i++)
+        {
+            Transform t = Instantiate(coin, new Vector3(Random.Range(corner1.position.x, corner2.position.x), corner1.position.y + Random.Range(0f, 5f), Random.Range(corner1.position.z, corner2.position.z)), coin.rotation) as Transform;
+            t.Rotate(new Vector3(0f, 0f, 90f));
+        }</br></br>
+
+        for (int i = 0; i < 90; i++)
+        {
+            Transform t = Instantiate(coin, new Vector3(Random.Range(topcorner1.position.x, topcorner2.position.x), topcorner1.position.y + Random.Range(0f, 5f), Random.Range(topcorner1.position.z, topcorner2.position.z)), coin.rotation) as Transform;
+            t.Rotate(new Vector3(0f, 0f, 90f));
+        }
+
+        
+    }</code>
+          
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+        </section>
+        <section class="main-section" id="Adding_Scripts_to_Game_Objects_2">
+          <header>Adding Scripts to Game Objects 2</header><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+
+<h3>Common enemies in video games</h3>    
+<ul>
+<li>Goblins</li>
+<li>Slimes</li>
+<li>Dragons</li>
+<li>Skeletons</li>
+<li>Wolves</li>
+</ul>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+        </section>
+        <section class="main-section" id="Adding_UI_Elements_2">
+          <header >Adding UI Elements 2</header>
+          
+          
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+          <code>void OnMouseOver()
+	{
+		game.numbertimer = 0.5f;
+		game.numbersum = game.sumOfNumbers(rowNumber, position);
+	}</code>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+<code>
+          void Start()
+    {
+        for(int i = 0; i < 90; i++)
+        {
+            Transform t = Instantiate(coin, new Vector3(Random.Range(corner1.position.x, corner2.position.x), corner1.position.y + Random.Range(0f, 5f), Random.Range(corner1.position.z, corner2.position.z)), coin.rotation) as Transform;
+            t.Rotate(new Vector3(0f, 0f, 90f));
+        }
+
+        for (int i = 0; i < 90; i++)
+        {
+            Transform t = Instantiate(coin, new Vector3(Random.Range(topcorner1.position.x, topcorner2.position.x), topcorner1.position.y + Random.Range(0f, 5f), Random.Range(topcorner1.position.z, topcorner2.position.z)), coin.rotation) as Transform;
+            t.Rotate(new Vector3(0f, 0f, 90f));
+        }
+    }</code>
+
+        </section>
+        <section class="main-section" id="Debugging_2">
+          <header>Debugging 2</header><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+          
+          <code>void OnMouseOver()
+	for(int i = 0; i < levels5x5.Length; i++)
+		{
+			levels5x5[i].completed = booleanFromInt(PlayerPrefs.GetInt("0levels" + i));
+
+			if(levels5x5[i].completed)
+			{
+			levels5x5[i].time = PlayerPrefs.GetString("0levelstime" + i);
+			levels5x5[i].timenum = PlayerPrefs.GetFloat("0levelstimenum" + i);
+			}
+		}</code>
+  
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in ex et diam tincidunt cursus at vel augue. Phasellus dignissim iaculis urna et mollis. Aenean eu turpis finibus, maximus erat sit amet, ullamcorper lectus. Ut tempus tortor facilisis nulla tristique laoreet. Nullam scelerisque enim ut lectus porttitor gravida ac sit amet est. Donec non consequat elit. Sed pellentesque, urna vel tincidunt condimentum, ante lectus sagittis nisi, non placerat sapien massa et ante. Praesent viverra tempor nisi, aliquet varius arcu vulputate sit amet. Donec scelerisque dolor sit amet commodo finibus. Suspendisse elementum nibh sem, in finibus purus vestibulum in. </p>
+
+<code>void OnMouseOver()
+public static string isLevelComplete(level levelToCheck)
+	{
+		if(levelToCheck.completed)
+			return levelToCheck.levelName;
+		
+		else
+			return "???";
+	}</code>
+
+        </section>
+
+
+    </main>
+  </body>
+
+</html>
